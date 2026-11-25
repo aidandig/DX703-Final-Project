@@ -1,0 +1,4 @@
+model_title,data_mode,batch_size,best_epoch,val_accuracy_pct,val_macro_f1_pct,execution_time
+Four Block CNN w 48 Batch Size & Cosine Decay (Data Mode: Full),full,48,35,65.57,65.68,15:21:11
+Four Block CNN (Data Mode: Full),full,32,44,56.03,55.91,19:03:49
+Compact CNN Baseline (Data Mode: Full),full,32,5,4.54,2.57,02:11:49
