@@ -1,0 +1,12 @@
+model_title,data_mode,batch_size,best_epoch,val_accuracy_pct,val_macro_f1_pct,execution_time
+Four Block CNN w 48 Batch Size & Cosine Decay (Data Mode: Full),full,48,35,65.57,65.68,15:21:11
+Four Block CNN (Data Mode: Full),full,32,44,56.03,55.91,19:03:49
+Four Block CNN w 48 Batch Size & Cosine Decay w/o Data Aug. (Data Mode: Full),full,48,17,52.61,53.17,08:13:01
+Four Block CNN w Batch Size 48 (Data Mode: Full),full,48,19,44.63,44.3,09:13:39
+Four Block CNN w 48 Batch Size & Cosine Decay (Data Mode: Experiment),experiment,48,23,33.33,32.18,02:18:06
+Four Block CNN (Data Mode: Experiment),experiment,32,15,21.17,19.3,01:22:01
+Four Block CNN w Increased Dropout (Data Mode: Experiment),experiment,32,15,18.79,15.98,01:21:59
+Four Block CNN w 48 Batch Size (Data Mode: Experiment),experiment,48,10,16.16,13.97,01:21:54
+Four Block CNN (Data Mode: Debug),debug,32,3,4.69,2.81,00:11:01
+Compact CNN Baseline (Data Mode: Full),full,32,5,4.54,2.57,02:11:49
+Four Block CNN (Data Mode: Smoke),smoke,32,1,0.99,0.02,00:00:28
